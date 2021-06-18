@@ -9,7 +9,7 @@
 </head>
 <body>
 
-<div class="col-lg-5 offset-3">
+<div style="width: 50%; margin: 0 auto;">
     <h1 class="text-center mt-2">Registration</h1>
     <p class="text-center">Fill in the details to register:</p>
 
@@ -42,7 +42,7 @@
         </div>
         
         <p class="text-center mt-3">Already Registered?
-            <a href="<?php echo site_url('auth/login') ?>" style="text-decoration: none">Login</a>
+            <a href="<?php echo site_url('login/') ?>" style="text-decoration: none">Login</a>
         </p>
     </form>
 

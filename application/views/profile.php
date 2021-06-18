@@ -9,8 +9,11 @@
 
 </head>
 <body>
-    <div class="card w-25 mt-5 p-3 text-center" style="margin: 0 auto; font-weight: bold;"><h3>Hello, <?php echo $_SESSION['username'] ?> </h3> 
-        <a class="mt-3" href="<?php echo base_url();?>index.php/auth/logout"><button class="btn btn-primary">Logout</button></a>
+    <div class="card w-25 mt-5 p-3 text-center border border-primary" style="margin: 0 auto; font-weight: bold;"><h3>WELCOME</h3> 
+   
+        <h4 class="text-primary"> <?php echo $_SESSION['username'] ?> </h4> 
+        <hr/>
+        <a class="mt-3" href="<?php echo base_url();?>logout"><button class="btn btn-primary">Logout</button></a> 
     </div>
 </body>
 </html>

@@ -7,11 +7,11 @@ class User extends CI_Controller{
         
         if(!isset($_SESSION['user_logged'])){
             $this->session->set_flashdata("error", "Please Login!");
-            redirect("auth/login");
+            redirect("login/");
         }
     }
 
-    public function profile(){
+    public function index(){
         $this->load->view('profile');
     }
 }

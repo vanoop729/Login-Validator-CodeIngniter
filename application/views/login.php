@@ -9,7 +9,7 @@
 </head>
 <body>
 
-<div class="col-lg-5 offset-3">
+<div style="width: 50%; margin: 0 auto;">
     <h1 class="text-center mt-2">Login</h1>
 
     <?php if(isset($_SESSION['error'])) { ?>
@@ -36,7 +36,7 @@
         </div>
         
         <p class="text-center mt-3">New User?
-            <a href="<?php echo site_url('auth/register') ?>" style="text-decoration: none">Register</a>
+            <a href="<?php echo site_url('register/') ?>" style="text-decoration: none">Register</a>
         </p>
     </form>
 
